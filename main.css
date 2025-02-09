@@ -167,7 +167,7 @@ h6 {
 .header .logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* More spacing for a balanced look */
+  gap: 5px; /* More spacing for a balanced look */
 }
 
 .header .logo img {
