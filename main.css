@@ -152,55 +152,43 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+
+
 .header {
   color: var(--default-color);
-  background: linear-gradient(135deg, var(--background-color) 30%, rgba(248, 249, 250, 0.8) 100%), 
-              url('assets/img/fotor-20250209233024.png'); /* Company logo as background */
-  padding: 20px 0;
+  background: linear-gradient(135deg, var(--background-color) 30%, rgba(176, 182, 184, 0.9) 100%);
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  background-size: contain; /* Ensures the logo fits well */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: overlay; /* Blends the gradient with the logo */
-}
-
-.header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.05); /* Subtle overlay effect */
-  z-index: -1;
+  background-color: #B0B6B8; /* Elegant English grey */
 }
 
 .header .logo {
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* More spacing for a balanced look */
 }
 
 .header .logo img {
-  max-height: 32px;
-  margin-right: 8px;
+  max-height: 100px; /* Slightly bigger for better visibility */
+  margin-right: 14px; /* Increased right margin */
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 32px; /* Slightly larger for emphasis */
   margin: 0;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--heading-color);
+  display: flex;
+  align-items: center;
 }
 
+/* Header when scrolled */
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 10%, rgba(var(--background-color), 0.8) 90%), 
-              url('assets/img/fotor-20250209233024.png'); /* Keeps the logo visible on scroll */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: overlay;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 10%, rgba(168, 169, 173, 0.8) 90%);
+  background-color: #A8A9AD; /* Softer grey when scrolled */
 }
 
 
