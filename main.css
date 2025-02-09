@@ -171,8 +171,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 100px; /* Slightly bigger for better visibility */
-  margin-right: 14px; /* Increased right margin */
+  max-height: 80px; /* Slightly bigger for better visibility */
 }
 
 .header .logo h1 {
