@@ -2186,12 +2186,12 @@ section,
   font-weight: 600;
   margin-bottom: 5px;
 }
-#contact {
+#contact 
 .btn-get-started {
   background-color: var(--accent-color);
   color: var(--contrast-color);
   border-radius: 30px;
-  padding: 8px 30px;
+  padding: 8px 8px;
   border: 2px solid transparent;
   transition: 0.3s all ease-in-out;
   font-size: 14px;
@@ -2201,7 +2201,7 @@ section,
   border-color: var(--accent-color);
   background-color: transparent;
   color: var(--accent-color);
-}}
+}
 
 
 .contact .info-item p {
