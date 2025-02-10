@@ -175,7 +175,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 32px; /* Slightly larger for emphasis */
+  font-size: 30px; /* Slightly larger for emphasis */
   margin: 0;
   font-weight: 600;
   color: var(--heading-color);
@@ -189,36 +189,6 @@ h6 {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 10%, rgba(168, 169, 173, 0.8) 90%);
   background-color: #A8A9AD; /* Softer grey when scrolled */
 }
-
-
-
-/* .header {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 20px 0;
-  transition: all 0.5s;
-  z-index: 997;
-}
-
-.header .logo {
-  line-height: 1;
-}
-
-.header .logo img {
-  max-height: 32px;
-  margin-right: 8px;
-}
-
-.header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  font-weight: 300;
-  color: var(--heading-color);
-}
-
-.scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
-} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -796,6 +766,7 @@ section,
 .about p {
   line-height: 1.7;
   color: var(--default-color);
+  text-align: justify;
 }
 
 .about .swiper-pagination {
@@ -846,6 +817,8 @@ section,
 .about-2 p {
   line-height: 1.7;
   color: var(--default-color);
+  text-align: justify;
+  margin-bottom: 48px;
 }
 
 .about-2 .btn-get-started {
@@ -1119,6 +1092,7 @@ section,
 .services-2 p {
   line-height: 1.7;
   color: var(--default-color);
+  text-align: justify;
 }
 
 .services-2 .lead {
@@ -1667,12 +1641,15 @@ section,
   color: var(--heading-color);
 }
 
-.team .team .pic {
-  margin-bottom: 30px;
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.team .team .pic img {
-  border-radius: 4px;
+.team .pic img {
+  border-radius: 8px;
+  width: 20rem;
 }
 
 .team .team .position {
@@ -1715,9 +1692,9 @@ section,
   transform: translate(-50%, -50%);
 }
 
-.team .more:hover {
+ .team .more:hover {
   color: var(--contrast-color);
-}
+} 
 
 .team .more:hover span {
   background: var(--accent-color);
@@ -1739,7 +1716,7 @@ section,
   color: var(--contrast-color);
   background: var(--accent-color);
 }
-
+/*
 .team .swiper-wrapper {
   height: auto;
 }
@@ -1766,7 +1743,7 @@ section,
 
 .team .slider-nav a:first-child {
   margin-right: 5px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Blog Posts 2 Section
